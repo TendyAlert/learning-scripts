@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lux/bootstrap.min.css"
+        integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<!--This makes the nav bar you can change the default style with bootstrap styles from https://www.bootstrapcdn.com/bootswatch/ 
+    And placing it in the Bootstrap CSS as seen above-->
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler d-lg-none" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        Home <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" 
+                        href="#" id="dropdownId" 
+                        data-toggle="dropdown"
+                        aria-haspopup="true" 
+                        aria-expanded="false">Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <h1>Hello Bootstrap!</h1>
+
+    <!--This creates all of the caolums and rows seen on the page-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-5">
+                <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <h2>Title</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ut incidunt, dolorum labore at
+                        libero atque vero possimus recusandae facilis sapiente cumque sed provident harum.</p>
+                </section>
+            </div>
+            <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h2>Title</h2>
+                <p>In cumque exercitationem iusto doloremque, corrupti eaque temporibus deserunt tempora ab, labore
+                    nulla alias omnis. Placeat veniam harum quos aliquid soluta. Blanditiis quisquam natus error?</p>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h2>Title</h2>
+                <p>Perferendis, eaque cupiditate sit officiis sapiente aliquid reiciendis sequi necessitatibus rem
+                    aperiam error mollitia, quibusdam repellendus explicabo perspiciatis ex possimus consequuntur
+                    commodi deleniti dolorem beatae.</p>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h2>Title</h2>
+                <p>Quibusdam omnis magni minima corrupti neque necessitatibus perspiciatis iure laborum nam alias
+                    veritatis doloribus aperiam magnam ad, eveniet numquam recusandae distinctio repellat assumenda
+                    similique. Totam?</p>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h2>Title</h2>
+                <p>Sapiente consectetur ipsum provident dignissimos minus dolorum tempora ratione veniam impedit, totam
+                    aspernatur velit eligendi! Molestiae cumque quidem nulla ratione dolorem reprehenderit nemo eius
+                    illum.</p>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h2>Title</h2>
+                <p>Voluptates autem atque quo, ullam necessitatibus aliquam pariatur unde aut itaque a ducimus, alias
+                    quisquam harum ad? Iusto minima temporibus libero voluptatem veniam numquam accusantium.</p>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h2>Title</h2>
+                <p>Quidem minima eveniet culpa corrupti dolores autem magnam! Aut tempora numquam, adipisci officiis hic
+                    optio sapiente! Quam eveniet quibusdam omnis possimus porro optio suscipit esse.</p>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h2>Title</h2>
+                <p>Fuga, qui. Fugit magnam, dolor nobis eveniet perspiciatis maxime laudantium debitis iusto magni
+                    fugiat consequuntur veniam mollitia illum veritatis? Enim beatae ex eligendi fugit expedita?</p>
+            </section>
+        </div>
+
+        <!--This section is for the tabs shown on the page-->
+        <ul class="nav nav-tabs justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" 
+                    id="spielburg-tab" 
+                    href="#spielburg" 
+                    aria-controls="spielburg" 
+                    data-toggle="tab">
+                    Round 1: Spielburg
+            </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" 
+                    id="silverstone-tab" 
+                    href="#silverstone" 
+                    aria-controls="silverstone" 
+                    data-toggle="tab">
+                    Round 2: Silverstone
+            </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" 
+                    id="austin-tab" 
+                    href="#" 
+                    data-toggle="tab">
+                    Round 3: Austin
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane show active" id="spielburg" role="tabpanel" aria-labelledby="spielburg-tab">
+                <h3>Spielburg Racetrack</h3>
+                <p>Length 5.941km</p>
+            </div>
+            <div class="tab-pane" id="silverstone" role="tabpanel" aria-labelledby="silverstone-tab">
+                <h3>Silverstone Racetrack</h3>
+                <p>Length 5.891km</p>
+            </div>
+        </div>
+
+
+        <!--This section is for the interactive accordian-->
+        <div id="accordianId" role="tablist" aria-multiselectable="true">
+            <div class="card">
+                <div class="card-header just" role="tab" id="section1HeaderId">
+                    <h5 class="mb-0 just">
+                        <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
+                  Section 1
+                </a>
+                    </h5>
+                </div>
+                <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+                    <div class="card-body">
+                        Section 1 content
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="section2HeaderId">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
+                  Section 2
+                </a>
+                    </h5>
+                </div>
+                <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+                    <div class="card-body">
+                        Section 2 content
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--This section is for the image carousel-->
+        <div class="row">
+            <div class="m-auto py-5">
+                <div id="carouselId" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselId" data-slide-to="1"></li>
+                        <li data-target="#carouselId" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="http://unsplash.it/900/500?img=1" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="carousel-h3">First</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <a href="./test-page.html" class="carousel-h3">This Is a Link</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://unsplash.it/900/500?img=2" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="carousel-h3">Second</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <a href="./test-page.html" class="carousel-h3">This Is a Link</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://unsplash.it/900/500?img=3" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="carousel-h3">Third</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <a href="./test-page.html" class="carousel-h3">This Is a Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

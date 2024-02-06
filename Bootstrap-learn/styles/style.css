@@ -1,0 +1,38 @@
+.btn-success {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+.btn-success:hover {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+.carousel {
+    width: 900px;
+}
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators, 
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-h3 {
+    color: white;
+    text-transform: none;
+}
+
+
+.border-test {
+    border: 5px solid black;
+}
+
+/*.container-fluid {
+    width: 75%;
+}*/
+
+.darkred-btn {
+    background-color: darkred;
+}

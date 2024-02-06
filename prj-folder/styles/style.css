@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    color: darkblue;
+    font-family: 'Antic Slab', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Glory Hallelujah', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin: 0.5rem auto 0 auto;
+}
+
+
+ul , ol {
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+p {
+    padding: 0px;
+    margin: 0 auto 0.75rem auto;
+}
+
+header {
+    background-color: white;
+}
+
+
+form [type=text],
+[type=email] {
+    padding: o.25rem;
+}
+
+
+.introduction {
+    text-align: center;
+    color: rgb(30, 30, 30);
+}
+
+
+.pfp {
+    width: 230px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 5px 50%;
+}
+
+
+.bg-dark {
+    color: white;
+    background-color: darkblue;
+    padding: 0 50px;
+}
+
+.bg-light {
+    color: darkblue;
+    background-image: url(../images/backgorund-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.shield {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 1.25rem 0 1rem 1rem;
+}
+
+.header-nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-menu-item {
+    margin-right: 1.5rem;
+}
+
+.header-menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.multi-colum-container {
+    display: flex;
+}
+
+.panel {
+    width: calc(100% / 3 - 40px);
+    margin: 50px auto;
+    border: 5px solid darkblue;
+    border-radius: 15px;
+    background-color: rgb(246, 255, 246);
+    text-align: center;
+    color: darkblue;
+}
+
+.panel h3 {
+    margin: 40px auto;
+}
+
+.panel .thumbnail {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.form-row{
+    display: flex;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px 20px;
+}
+
+[type=submit] {
+    background-color: #04003d;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5);
+    box-sizing: content-box;
+    font-size: 1rem;
+}
+
+[type=submit]:hover {
+    background-color: blue;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+}

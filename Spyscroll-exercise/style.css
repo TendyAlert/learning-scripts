@@ -1,0 +1,10 @@
+.scrollspy-dimensions {
+    height: 200px; 
+    margin: 0 1rem;
+    overflow-y: scroll; 
+    position: relative;
+}
+
+.scrollspy-container {
+    border: 1px solid black;
+}

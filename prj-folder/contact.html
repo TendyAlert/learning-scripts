@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact</h1>
+
+    <form action="#" method="GET">
+        <div class="form-row">
+            <label for="first-name"> 
+                First Name: 
+                <input type="text" name="first-name" id="first-name" required placeholder="Your first name">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label for="last-name"> 
+                Last Name: 
+                <input type="text" name="last-name" id="last-name" required placeholder="Your last name">>
+            </label>
+        </div>
+        
+        <div class="form-row">
+            <label for="email">
+                Email:
+                <input type="email" name="email" id="email" required placeholder="Your example@example.com">>
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label >
+                Phone number:
+                <input type="tel" 
+                name="phone" required
+                placeholder="format:1-123-456-7890"
+                pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label>
+                Message:
+                <textarea name="mesage" cols="30" rows="2">Dear Elam,</textarea>
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label>
+                Gender:
+                <select name="gneder">
+                    <option value="select...">Select...</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                    <option value="do-not-disclose">Do Not Disclose</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="form-row">
+            <fieldset>
+                <legend>Topic</legend>
+                <label>
+                    <input type="radio" name = "topic" value="html">
+                    HTML
+                </label>
+                <label>
+                    <input type="radio" name = "topic" value="css">
+                    CSS
+                </label>
+                <label>
+                    <input type="radio" name = "topic" value="javascript">
+                    JavaScritp
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="form-row">
+            <fieldset>
+                <legend>Request</legend>
+                <label>
+                    <input type="checkbox" name='advice'>
+                    Advice
+                </label>
+                <label>
+                    <input type="checkbox" name='information'>
+                    Information
+                </label>
+                <label>
+                    <input type="checkbox" name='motivation'>
+                    Motivation
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="form-row">
+            <label>
+                Urgency (0 - 10)
+                <input type="range"
+                 class="js-urgency"
+                  min="0" max="10" 
+                  name="urgency" value="2">
+                <input type="text" class="js-urgency-value" value ="2">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </div>
+
+        <a href="./index.html">Back</a>\
+
+    
+    </form>
+
+
+</body>
+</html>
